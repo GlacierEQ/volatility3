@@ -65,15 +65,19 @@ pip install -e ".[dev]"
 
 Symbol table packs for the various operating systems are available for download at:
 
-<https://downloads.volatilityfoundation.org/volatility3/symbols/windows.zip>
-<https://downloads.volatilityfoundation.org/volatility3/symbols/mac.zip>
-<https://downloads.volatilityfoundation.org/volatility3/symbols/linux.zip>
+[windows.zip](https://github.com/volatilityfoundation/volatility3-test-data/releases/download/v0.0.1/windows.zip)
+
+[mac.zip](https://github.com/volatilityfoundation/volatility3-test-data/releases/download/v0.0.1/mac.zip)
+
+[linux.zip](https://github.com/volatilityfoundation/volatility3-test-data/releases/download/v0.0.1/linux.zip)
 
 The hashes to verify whether any of the symbol pack files have downloaded successfully or have changed can be found at:
 
-<https://downloads.volatilityfoundation.org/volatility3/symbols/SHA256SUMS>
-<https://downloads.volatilityfoundation.org/volatility3/symbols/SHA1SUMS>
-<https://downloads.volatilityfoundation.org/volatility3/symbols/MD5SUMS>
+[SHA256SUMS](https://raw.githubusercontent.com/volatilityfoundation/volatility3-test-data/refs/tags/v0.0.1/symbols/SHA256SUMS)
+
+[SHA1SUMS](https://raw.githubusercontent.com/volatilityfoundation/volatility3-test-data/refs/tags/v0.0.1/symbols/SHA1SUMS)
+
+[MD5SUMS](https://raw.githubusercontent.com/volatilityfoundation/volatility3-test-data/refs/tags/v0.0.1/symbols/MD5SUMS)
 
 Symbol tables zip files must be placed, as named, into the `volatility3/symbols` directory (or just the symbols directory next to the executable file).
 
@@ -92,7 +96,7 @@ The latest generated copy of the documentation can be found at: <https://volatil
 
 ## Licensing and Copyright
 
-Copyright (C) 2007-2025 Volatility Foundation
+Copyright (C) 2007-2026 Volatility Foundation
 
 All Rights Reserved
 
